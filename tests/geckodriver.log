@@ -1,0 +1,26 @@
+1759651112610	geckodriver	INFO	Listening on 127.0.0.1:53527
+1759651115792	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53528" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TECHST~1\\AppData\\Local\\Temp\\rust_mozprofile3QOnsk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+Dynamically enable window occlusion 0
+1759651119547	Marionette	INFO	Marionette enabled
+1759651119933	Marionette	INFO	Listening on port 53535
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd64 v= and igd10iumd64 v=
+WebDriver BiDi listening on ws://127.0.0.1:53528
+Read port: 53535
+1759651120999	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Failed to get D3D11VideoDevice: 0x80004002
+[GFX1-]: Handling webrender error 5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1759651137260	Marionette	INFO	Stopped listening on port 53535
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 105: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: main/translations-models list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
