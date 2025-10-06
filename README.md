@@ -59,29 +59,7 @@ The solution is highly maintainable due to its POM structure:
 * **Dedicated Page Classes:** Separate classes for each major application screen (`LoginPage`, `InventoryPage`, `CartPage`, `CheckoutInformationPage`, etc.).
 * **Data Isolation:** All locators are defined as constants within their respective page classes, ensuring UI changes only require modification in one place.
 
-## How to Run the Tests
 
-1.  **Clone the Repository:**
-    ```bash
-    git clone [https://github.com/fatimagit-code/Quality-Control.git](https://github.com/fatimagit-code/Quality-Control.git)
-    cd swag_labs # Change to your project directory
-    ```
-
-2.  **Install Dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    # (Ensure requirements.txt lists selenium, pytest, etc.)
-    ```
-
-3.  **Execute Tests:**
-    ```bash
-    # Run all tests using pytest
-    pytest
-    
-    # Run tests marked as 'major'
-    pytest -m major
-    
-    # Generate an HTML report (optional)
     pytest --html=report.html
     ```
 
