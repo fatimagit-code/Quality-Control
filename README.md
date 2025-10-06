@@ -60,9 +60,4 @@ The solution is highly maintainable due to its POM structure:
 * **Data Isolation:** All locators are defined as constants within their respective page classes, ensuring UI changes only require modification in one place.
 
 
-    pytest --html=report.html
-    ```
 
----
-
-*This project was completed as part of a comprehensive quality control and test automation initiative.*
